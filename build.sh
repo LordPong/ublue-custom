@@ -18,6 +18,9 @@ rpm-ostree install tmux kcm_systemd plymouth-kcm
 # this would install a package from rpmfusion
 rpm-ostree install vlc
 
+# Remove packages from base
+rpm-ostree override remove firefox-langpacks firefox
+
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
