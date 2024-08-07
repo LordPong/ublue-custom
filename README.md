@@ -1,3 +1,5 @@
+[![build-ublue-custom](https://github.com/LordPong/ublue-custom/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/LordPong/ublue-custom/actions/workflows/build.yml)
+
 # image-template
 
 # Purpose
