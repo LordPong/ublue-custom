@@ -19,7 +19,7 @@ rpm-ostree install tmux kcm_systemd plymouth-kcm
 rpm-ostree install vlc
 
 # Remove packages from base
-rpm-ostree override remove firefox-langpacks firefox
+rpm-ostree override remove firefox firefox-langpacks    
 
 #### Example for enabling a System Unit File
 
