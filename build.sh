@@ -4,7 +4,7 @@ set -ouex pipefail
 
 RELEASE="$(rpm -E %fedora)"
 
-curl -Lo /etc/yum.repos.d/atim-starship-fedora-"${RELEASE}".repo https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-40/atim-starship-fedora-40.repo
+curl -Lo /etc/yum.repos.d/atim-starship-fedora-"${RELEASE}".repo https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-"${RELEASE}"/atim-starship-fedora-"${RELEASE}".repo
 
 ### Install packages
 
